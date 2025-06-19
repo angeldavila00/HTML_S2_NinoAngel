@@ -1,0 +1,14 @@
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #7c03c2f9;
+    border-radius: 1em;
+    }
+    div + div {
+    margin-top: 1em;
+    }
+    label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;

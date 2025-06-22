@@ -27,7 +27,6 @@
     left: 380px;
     width: 1160px;
     height: 102px;
-
 }
 .header{ 
     position: relative;
@@ -61,4 +60,30 @@
     height: 313px;
     opacity: 1;
     z-index: 3;
+}
+
+.button {
+    position: absolute;
+    top: 755px;
+    left: 762px;
+    width: 458px;
+    height: 104px;
+    
+}
+button {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 70px;
+    border: none;
+    background-color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+button:hover {
+    background-color: #fff2f2;
+    color: rgb(4, 4, 4);
+    transform: scale(1.05);
 }

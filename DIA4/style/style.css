@@ -42,3 +42,12 @@
     background: transparent url("img/contenido.png") 0% 0% no-repeat padding-box;
     opacity: 1;
 }
+.texto-centro{
+    position: absolute;
+    top: 608px;
+    left: 380px;
+    width: 1160px;
+    height: 102px;
+    background: transparent url('img/texto.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}

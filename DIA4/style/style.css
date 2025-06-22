@@ -1,0 +1,23 @@
+.header{ 
+    position: center;
+    width: 500px;
+    height: 300px;
+
+}
+
+.fondo-logo{
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    display: block;
+}
+.imagen-encima{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 1920px;
+    height: 1080px;
+    max-width: 100%;
+    display: block;
+    opacity: 0.35;
+}

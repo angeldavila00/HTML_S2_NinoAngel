@@ -51,3 +51,14 @@
     background: transparent url('img/texto.png') 0% 0% no-repeat padding-box;
 opacity: 1;
 }
+.circulo{
+    position: absolute;
+    top: 755px;
+    left: 730px;
+    width: 458px;
+    height: 104px;
+    background: transparent url('img/Rectangle2.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 52px;
+    opacity: 1;
+}

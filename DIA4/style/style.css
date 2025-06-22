@@ -14,6 +14,7 @@
     width: auto;
     height: auto;
     display: block;
+    object-fit: cover;
 }
 .imagen-encima{
     position: absolute;
@@ -21,8 +22,8 @@
     left: 0px;
     width: 1920px;
     height: 1080px;
-    background: transparent url('img/FondoTwitch.jpg') 0% 0% no-repeat padding-box;
     opacity: 0.35;
+    z-index: 2;
 }
 .fondo-prime{
     position: absolute;
@@ -30,8 +31,8 @@
     left: 682px;
     width: 556px;
     height: 313px;
-    background: transparent url('img/LogoPrime.png') 0% 0% no-repeat padding-box;
     opacity: 1;
+    z-index: 3;
 }
 .centro-logo{
     position: absolute;
@@ -39,8 +40,8 @@
     left: 389px;
     width: 1151px;
     height: 60px;
-    background: transparent url("img/contenido.png") 0% 0% no-repeat padding-box;
     opacity: 1;
+    z-index: 4;
 }
 .texto-centro{
     position: absolute;
@@ -48,8 +49,8 @@
     left: 380px;
     width: 1160px;
     height: 102px;
-    background: transparent url('img/texto.png') 0% 0% no-repeat padding-box;
-opacity: 1;
+    opacity: 1;
+    z-index: 5;
 }
 .circulo{
     position: absolute;
@@ -57,8 +58,17 @@ opacity: 1;
     left: 730px;
     width: 458px;
     height: 104px;
-    background: transparent url('img/Rectangle2.png') 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     border-radius: 52px;
     opacity: 1;
+    z-index: 6;
 }
+.sign-up{
+    top: 787px;
+    left: 780px;
+    width: 360px;
+    height: 40px;
+    opacity: 1;
+    z-index: 7;
+}
+

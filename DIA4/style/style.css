@@ -3,6 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.texto-sub {
+    position: absolute;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    top: 517px;
+    left: 389px;
+    width: 1155px;
+    height: 60px;
+    opacity: 1;
+    z-index: 4;
+    color: aliceblue;
+}
+.texto-segundo{
+    position: absolute;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: aliceblue;
+    top: 580px;
+    left: 380px;
+    width: 1160px;
+    height: 102px;
+
+}
 .header{ 
     position: relative;
     width: 100%;
@@ -11,10 +37,12 @@
 }
 .fondo-logo{
     position: absolute;
-    width: auto;
-    height: auto;
-    display: block;
-    object-fit: cover;
+    top: 0px;
+    left: 2px;
+    width: 1918px;
+    height: 4149px;
+    border: 1px solid #707070;
+    opacity: 1;
 }
 .imagen-encima{
     position: absolute;
@@ -22,7 +50,7 @@
     left: 0px;
     width: 1920px;
     height: 1080px;
-    opacity: 0.35;
+    opacity: 0.20;
     z-index: 2;
 }
 .fondo-prime{
@@ -34,41 +62,3 @@
     opacity: 1;
     z-index: 3;
 }
-.centro-logo{
-    position: absolute;
-    top: 517px;
-    left: 389px;
-    width: 1151px;
-    height: 60px;
-    opacity: 1;
-    z-index: 4;
-}
-.texto-centro{
-    position: absolute;
-    top: 608px;
-    left: 380px;
-    width: 1160px;
-    height: 102px;
-    opacity: 1;
-    z-index: 5;
-}
-.circulo{
-    position: absolute;
-    top: 755px;
-    left: 730px;
-    width: 458px;
-    height: 104px;
-    border: 1px solid #707070;
-    border-radius: 52px;
-    opacity: 1;
-    z-index: 6;
-}
-.sign-up{
-    top: 787px;
-    left: 780px;
-    width: 360px;
-    height: 40px;
-    opacity: 1;
-    z-index: 7;
-}
-

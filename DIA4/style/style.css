@@ -1,23 +1,44 @@
-.header{ 
-    position: center;
-    width: 500px;
-    height: 300px;
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
+.header{ 
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
 .fondo-logo{
     position: absolute;
-    width: 1920px;
-    height: 1080px;
+    width: auto;
+    height: auto;
     display: block;
 }
 .imagen-encima{
     position: absolute;
-    top: 50px;
-    left: 50px;
+    top: 0px;
+    left: 0px;
     width: 1920px;
     height: 1080px;
-    max-width: 100%;
-    display: block;
+    background: transparent url('img/FondoTwitch.jpg') 0% 0% no-repeat padding-box;
     opacity: 0.35;
+}
+.fondo-prime{
+    position: absolute;
+    top: 227px;
+    left: 682px;
+    width: 556px;
+    height: 313px;
+    background: transparent url('img/LogoPrime.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.centro-logo{
+    position: absolute;
+    top: 517px;
+    left: 389px;
+    width: 1151px;
+    height: 60px;
+    background: transparent url("img/contenido.png") 0% 0% no-repeat padding-box;
+    opacity: 1;
 }

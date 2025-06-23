@@ -98,3 +98,32 @@
     line-height: 50px;
     cursor: pointer;
 }
+.circuloblue{
+    position: absolute;
+    background-color: #00a8e1;
+    top: 1106px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+    border-radius: 108px 108px 108px 108px;
+}
+.textocirculoblue{
+    top: 1179px;
+    left: 350px;
+    width: 1200px;
+    color: #FFFFFF;
+    height: 60px;
+    font-size: 60px;
+    text-align: center;
+    font-family: "Amazon Ember", Bold;
+    position: absolute;
+}
+.tv1{
+    position: absolute;
+    background: transparent url(../img/tv.png) 0% 0% no-repeat padding-box;
+    top: 1300px;
+    left: 850px;
+    width: 280px;
+    height: 307px;
+    opacity: 1;
+}

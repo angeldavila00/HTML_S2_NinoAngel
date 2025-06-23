@@ -32,7 +32,6 @@
     height: 36px;
     opacity: 1;
     background: transparent url(../img/buscador.png) 0% 0% no-repeat padding-box;
-    
 }
 .logo{
     position: absolute;
@@ -56,5 +55,46 @@
 
 }
 .texto2{
-    
+    position: absolute;
+    top: 608px;
+    left: 380px;
+    width: 1160px;
+    height: 102px;
+    color: #FFFFFF;
+    font-size: 29px;
+    text-align: center;
+    font-family: "Amazon Ember", Light;
+    line-height: 30px;
+}
+.Sign-up{
+    top: 755px;
+    left: 730px;
+    width: 458px;
+    height: 104px;
+    border-radius: 52px 52px 52px 52px;
+    font-size: 40px;
+    background-color: #FFFFFF;
+    position: absolute;
+    border: 1px solid #000000;
+    text-align: center;
+    font-family: "Amazon Ember", Light;
+    line-height: 50px;
+    cursor: pointer;
+}
+.login{
+    top: 30px;
+    left: 1695px;
+    width: 205px;
+    height: 54px;
+    font-size: 20px;
+    font-family: "Amazon Ember", Light;
+    text-align: left;
+    line-height: 24px;
+    border-radius: 52px 52px 52px 52px;
+    background-color: #FFFFFF;
+    position: absolute;
+    border: 1px solid #000000;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
 }

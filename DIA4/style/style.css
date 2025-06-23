@@ -34,3 +34,27 @@
     background: transparent url(../img/buscador.png) 0% 0% no-repeat padding-box;
     
 }
+.logo{
+    position: absolute;
+    top: 227px;
+    left: 682px;
+    width: 556px;
+    height: 313px;
+    background: transparent url(../img/LogoPrime.png) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.texto1{
+    top: 517px;
+    left: 389px;
+    width: 1151px;
+    height: 60px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    font-size: 60px;
+    font-family: "Amazon Ember", Bold;
+
+}
+.texto2{
+    
+}

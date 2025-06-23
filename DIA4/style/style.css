@@ -127,3 +127,15 @@
     height: 307px;
     opacity: 1;
 }
+.textoinferior{
+    position: absolute;
+    top: 1500px;
+    left: 200px;
+    width: 1495px;
+    height: 109px;
+    color: #FFFFFF;
+    font-size: 45px;
+    text-align: center;
+    font-family:  "Amazon Ember", Light;
+}
+

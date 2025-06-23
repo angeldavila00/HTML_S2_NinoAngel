@@ -279,5 +279,83 @@
     font-weight: 300;
     line-height: 150px;
 }
+.textofinal2{
+    top: 3296px;
+    left: 181px;
+    width: 1544px;
+    height: 99px;
+    color: #FFFFFF;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Amazon Ember", Bold;
+    position: absolute;
+    font-weight: 200;
+    line-height: 48px;
+}
+.flecha1{
+    top: 3689px;
+    left: 305px;
+    width: 19px;
+    height: 27px;
+    position: absolute;
+    background: transparent url(../img/Flecha1.png) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.flecha2{
+    top: 3702px;
+    left: 1575px;
+    width: 18px;
+    height: 26px;
+    position: absolute;
+    transform: scaleX(-1);
+    background: transparent url(../img/Flecha1.png) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.celular{
+    top: 3606px;
+    left: 386px;
+    width: 256px;
+    height: 219px;
+    position: absolute;
+    background: transparent url(../img/celular.png) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.mac{
+    top: 3440px;
+    left: 685px;
+    width: 584px;
+    height: 534px;
+    position: absolute;
+    background: transparent url(../img/mac.png) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.portatil{
+    top: 3587px;
+    left: 1261px;
+    width: 271px;
+    height: 238px;
+    position: absolute;
+    background: transparent url(../img/portatil.png) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.terminosycondiciones{
+    position: absolute;
+    top: 4088px;
+    left: 543px;
+    width: 831px;
+    height: 25px;
+    color: #beb9ad;
+    font-size: 25px;
+    text-align: center;
+    font-family: "Amazon Ember", Light;
+    position: absolute;
+    font-weight: 200;
+}
+.terminosycondiciones span{
+    display: inline-block;
+    margin: 0 25px;
+}
+
+
 
 

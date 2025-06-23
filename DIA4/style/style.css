@@ -2,9 +2,9 @@
 @import url("https://fonts.cdnfonts.com/css/amazon-ember");
 
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    width: 1920px;
+    height: 100%;
 }
 
 .fondojuego{ 
@@ -65,6 +65,7 @@
     text-align: center;
     font-family: "Amazon Ember", Light;
     line-height: 30px;
+    font-weight: 200;
 }
 .Sign-up{
     top: 755px;
@@ -105,7 +106,7 @@
     left: 64px;
     width: 1792px;
     height: 567px;
-    border-radius: 108px 108px 108px 108px;
+    border-radius: 108px;
 }
 .textocirculoblue{
     top: 1179px;
@@ -137,5 +138,89 @@
     font-size: 45px;
     text-align: center;
     font-family:  "Amazon Ember", Light;
+    line-height: 60px;
+    font-weight: 200;
 }
+.blue2{
+    position: absolute;
+    background-color: #00a8E1;
+    top: 1717px;
+    left: 64px;
+    width: 1792px;
+    height: 724px;
+    border-radius: 108px;
+}
+.textoblue{
+    top: 1773px;
+    left: 135px;
+    width: 1664px;
+    height: 60px;
+    color: #FFFFFF;
+    font-size: 60px;
+    text-align: center;
+    font-family: "Amazon Ember", Bold;
+    position: absolute;
+}
+.movie1{
+    position: absolute;
+    top: 1896px;
+    left: 477px;
+    width: 181px;
+    height: 309px;
+    background: transparent url(../movie/movie1.png) 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+}
+.movie2{
+    top: 1896px;
+    left: 670px;
+    width: 181px;
+    height: 309px;
+    position: absolute;
+    background: transparent url(../movie/movie2.png) 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+}
+.movie3{
+    top: 1896px;
+    left: 863px;
+    width: 180px;
+    height: 309px;
+    position: absolute;
+    background: transparent url(../movie/movie3.png) 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+
+}
+.movie4{
+    top: 1896px;
+    left: 1055px;
+    width: 181px;
+    height: 309px;
+    position: absolute;
+    background: transparent url(../movie/movie4.png) 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+
+}
+.movie5{
+    top: 1896px;
+    left: 1248px;
+    width: 181px;
+    height: 309px;
+    position: absolute;
+    background: transparent url(../movie/movie5.png) 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+}
+.textomovie{
+    position: absolute;
+    top: 2286px;
+    left: 207px;
+    width: 1492px;
+    height: 110px;
+    color: #FFFFFF;
+    font-size: 45px;
+    text-align: center;
+    font-family:  "Amazon Ember", Light;
+    line-height: 60px;
+    font-weight: 200;
+}
+
+
 

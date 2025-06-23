@@ -1,89 +1,36 @@
+
+@import url("https://fonts.cdnfonts.com/css/amazon-ember");
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.texto-sub {
-    position: absolute;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-    top: 517px;
-    left: 389px;
-    width: 1155px;
-    height: 60px;
-    opacity: 1;
-    z-index: 4;
-    color: aliceblue;
-}
-.texto-segundo{
-    position: absolute;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 200;
-    color: aliceblue;
-    top: 580px;
-    left: 380px;
-    width: 1160px;
-    height: 102px;
-}
-.header{ 
-    position: relative;
-    width: 100%;
-    height: 100%;
-    
-}
-.fondo-logo{
-    position: absolute;
-    top: 0px;
-    left: 2px;
-    width: 1918px;
-    height: 4149px;
-    border: 1px solid #707070;
-    opacity: 1;
-}
-.imagen-encima{
-    position: absolute;
+.fondojuego{ 
     top: 0px;
     left: 0px;
     width: 1920px;
     height: 1080px;
-    opacity: 0.20;
-    z-index: 2;
-}
-.fondo-prime{
+    background: transparent url(../img/FondoTwitch.png) 0% 0% no-repeat padding-box;
     position: absolute;
-    top: 227px;
-    left: 682px;
-    width: 556px;
-    height: 313px;
-    opacity: 1;
-    z-index: 3;
 }
+.fondo{
+    top: 0px;
+    left: 2px;
+    width: 1920px;
+    height: 4149px;
+    background: transparent url(../img/Path1.png) 0% 0% no-repeat padding-box;
+    border: 1px solid #f5f2f2;
 
-.button {
+}
+.buscador{
     position: absolute;
-    top: 755px;
-    left: 762px;
-    width: 458px;
-    height: 104px;
+    top: 37px;
+    left: 63px;
+    width: 36px;
+    height: 36px;
+    opacity: 1;
+    background: transparent url(../img/buscador.png) 0% 0% no-repeat padding-box;
     
-}
-button {
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 20px 70px;
-    border: none;
-    background-color: #fff;
-    border-radius: 50px;
-    cursor: pointer;
-    
-}
-button:hover {
-    background-color: #fff2f2;
-    color: rgb(4, 4, 4);
-    transform: scale(1.05);
 }

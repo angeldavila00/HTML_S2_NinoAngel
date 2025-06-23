@@ -2,9 +2,9 @@
 @import url("https://fonts.cdnfonts.com/css/amazon-ember");
 
 * {
+    margin: 0px;
     box-sizing: border-box;
-    width: 1920px;
-    height: 100%;
+    
 }
 
 .fondojuego{ 
@@ -18,7 +18,7 @@
 .fondo{
     top: 0px;
     left: 2px;
-    width: 1920px;
+    width: 1918px;
     height: 4149px;
     background: transparent url(../img/Path1.png) 0% 0% no-repeat padding-box;
     border: 1px solid #f5f2f2;
@@ -222,5 +222,62 @@
     font-weight: 200;
 }
 
+.circulotercero{
+    top: 2467px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+    position: absolute;
+    background-color: #00a8e1;
+    border-radius: 108px;
+
+}
+
+.tercertexto{
+    top: 2510px;
+    left: 560px;
+    width: 800px;
+    height: 60px;
+    color: #FFFFFF;
+    font-size: 60px;
+    text-align: center;
+    font-family: "Amazon Ember", Bold;
+    position: absolute;
+}
+.icono{
+    top: 2650px;
+    left: 876px;
+    width: 169px;
+    height: 169px;
+    position: absolute;
+    background: transparent url(../img/icono.png) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.tex{
+    top: 2881px;
+    left: 269px;
+    width: 1382px;
+    height: 88px;
+    color: #FFFFFF;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Amazon Ember", Bold;
+    position: absolute;
+    font-weight: 200;
+    line-height: 48px;
+}
+.textofinal{
+    top: 3127px;
+    left: 418px;
+    width: 1118px;
+    height: 125px;
+    color: #FFFFFF;
+    font-size: 125px;
+    text-align: center;
+    font-family: "Amazon Ember", Bold;
+    position: absolute;
+    font-weight: 300;
+    line-height: 150px;
+}
 
 

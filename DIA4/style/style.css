@@ -1,6 +1,4 @@
 
-@import url("https://fonts.cdnfonts.com/css/amazon-ember");
-
 * {
     margin: 0px;
     box-sizing: border-box;
@@ -89,6 +87,7 @@ body{
     line-height: 90px;
     cursor: pointer;
 }
+
 .login{
     top: 30px;
     left: 1695px;
@@ -96,7 +95,6 @@ body{
     height: 54px;
     font-size: 20px;
     font-family: "Amazon Ember", Light;
-    text-align: left;
     line-height: 50px;
     border-radius: 52px 52px 52px 52px;
     background-color: #FFFFFF;
@@ -105,7 +103,9 @@ body{
     text-align: center;
     cursor: pointer;
     font-weight: 300;
+    outline: none;
 }
+
 .circuloblue{
     position: absolute;
     background-color: #00a8e1;
@@ -362,6 +362,10 @@ body{
     display: inline-block;
     margin: 0 25px;
 }
+.terminosycondiciones a {
+    color: white;
+}
+
 
 
 

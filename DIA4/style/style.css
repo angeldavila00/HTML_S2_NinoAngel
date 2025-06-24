@@ -73,6 +73,7 @@ body{
     line-height: 30px;
     font-weight: 200;
 }
+
 .Sign-up{
     top: 755px;
     left: 730px;
@@ -85,7 +86,7 @@ body{
     border: 1px solid #000000;
     text-align: center;
     font-family: "Amazon Ember", Light;
-    line-height: 50px;
+    line-height: 90px;
     cursor: pointer;
 }
 .login{
@@ -96,7 +97,7 @@ body{
     font-size: 20px;
     font-family: "Amazon Ember", Light;
     text-align: left;
-    line-height: 24px;
+    line-height: 50px;
     border-radius: 52px 52px 52px 52px;
     background-color: #FFFFFF;
     position: absolute;

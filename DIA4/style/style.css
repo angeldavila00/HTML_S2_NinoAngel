@@ -6,6 +6,10 @@
     box-sizing: border-box;
     
 }
+body{
+    background-color: #000000;
+    background-size: 1920px 1080px, 1920px 4149px;
+}
 
 .fondojuego{ 
     top: 0px;
@@ -21,7 +25,7 @@
     width: 1918px;
     height: 4149px;
     background: transparent url(../img/Path1.png) 0% 0% no-repeat padding-box;
-    border: 1px solid #f5f2f2;
+    border: 1px solid #050505;
 
 }
 .buscador{
@@ -32,6 +36,8 @@
     height: 36px;
     opacity: 1;
     background: transparent url(../img/buscador.png) 0% 0% no-repeat padding-box;
+    background-size: cover;
+    cursor: pointer;
 }
 .logo{
     position: absolute;
@@ -96,8 +102,8 @@
     position: absolute;
     border: 1px solid #000000;
     text-align: center;
-    line-height: 50px;
     cursor: pointer;
+    font-weight: 300;
 }
 .circuloblue{
     position: absolute;
@@ -344,12 +350,12 @@
     left: 543px;
     width: 831px;
     height: 25px;
-    color: #beb9ad;
+    color: #cfccc6;
     font-size: 25px;
     text-align: center;
     font-family: "Amazon Ember", Light;
     position: absolute;
-    font-weight: 200;
+    font-weight: 300;
 }
 .terminosycondiciones span{
     display: inline-block;

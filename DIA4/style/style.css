@@ -1,12 +1,8 @@
 
-* {
-    margin: 0px;
-    box-sizing: border-box;
-    
-}
 body{
-    background-color: #000000;
     background-size: 1920px 1080px, 1920px 4149px;
+    margin: 0px;
+    width: 100vh;
 }
 
 .fondojuego{ 
@@ -24,7 +20,7 @@ body{
     height: 4149px;
     background: transparent url(../img/Path1.png) 0% 0% no-repeat padding-box;
     border: 1px solid #050505;
-
+    
 }
 .buscador{
     position: absolute;

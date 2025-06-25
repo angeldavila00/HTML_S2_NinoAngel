@@ -1,0 +1,26 @@
+
+.elemento {
+    color: rgb(42,25,25);
+    background-color: rgba(60,69,254);
+    padding: 20px;
+    background-image: linear-gradient(to right,black 0%,white 25%, blue 30%,  gold 50%, red 100%);
+    
+}
+
+.elemento2 {
+    background-image: radial-gradient(red,white,black,gold);
+}
+
+.elemento3 {
+    background-color: rgb(109, 45, 96);
+    background-color: transparent;
+    color: blue;
+}
+
+.rectangulo{
+    background: blue;       /* Fondo de color azul */
+  border: 3px solid #000; /* Borde color negro y de 3 píxeles de grosor */
+  width: 1000px;           /* Ancho de 250 píxeles */
+  height: 600px;
+  position: center;
+}

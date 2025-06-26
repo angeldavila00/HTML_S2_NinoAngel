@@ -40,6 +40,14 @@
     position: absolute;
     background: transparent;
 }
+.metrolinea2{
+    top: 90px;
+    left: 330px;
+    width: 600px;
+    height: 800px;
+    position: absolute;
+    background: transparent;
+}
 .compra{
     top: 240px;
     left: 800px;
@@ -57,6 +65,15 @@
 .subrayar{
     top: 280px;
     left: 845px;
+    width: 130px;
+    height: 0px;
+    border: 1px solid #212020;
+    position: absolute;
+
+}
+.subrayar2{
+    top: 280px;
+    left: 1074px;
     width: 130px;
     height: 0px;
     border: 1px solid #212020;
@@ -224,3 +241,106 @@
     text-align: left;
     font-size: 26px;
 }
+.valor{
+    top: 367px;
+    left: 1426px;
+    width: 48px;
+    height: 27px;
+    color: #FFFFFF;
+    position: absolute;
+    text-align: left;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tex1{
+    top: 507px;
+    left: 1417px;
+    width: 57px;
+    height: 27px;
+    color: #FFFFFF;
+    position: absolute;
+    text-align: left;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 40%;
+}
+.tex2{
+    top: 587px;
+    left: 1417px;
+    width: 57px;
+    height: 27px;
+    color: #FFFFFF;
+    position: absolute;
+    text-align: left;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tex3{
+    top: 667px;
+    left: 1417px;
+    width: 57px;
+    height: 27px;
+    color: #FFFFFF;
+    position: absolute;
+    text-align: left;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 40%;
+}
+
+.pepito{
+    top: 700px;
+    left: 300px;
+    width: 700px;
+    height: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+}
+.saldoActual{
+    top: 770px;
+    left: 450px;
+    width: 329px;
+    height: 37px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    text-align: left;
+    font-size: 23px;
+}
+.saldoEscogido{
+    top: 820px;
+    left: 500px;
+    width: 200px;
+    height: 37px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    text-align: left;
+    font-size: 23px;
+}
+
+.cuadrito{
+    top: 870px;
+    left: 450px;
+    width: 288px;
+    height: 58px;
+    background: transparent;
+    border-radius: 8px;
+    position: absolute;
+    border:1px solid #000000;
+    opacity: 40%;
+}
+
+.saldoFinal{
+    top: 885px;
+    left: 550px;
+    width: 288px;
+    height: 58px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    text-align: left;
+    font-size: 23px;
+    opacity: 40%;
+
+}
+

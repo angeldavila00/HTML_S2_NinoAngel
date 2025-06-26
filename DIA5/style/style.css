@@ -32,3 +32,34 @@
     height: 44px;
     position: absolute;
 }
+.metrolinea{
+    top: 32px;
+    left: 350px;
+    width: 700px;
+    height: 1000px;
+    position: absolute;
+    background: transparent;
+}
+.compra{
+    top: 240px;
+    left: 800px;
+    width: 230px;
+    height: 41px;
+    position: absolute;
+    color: #000000;
+    font-size: 30px;
+    text-align: left;
+    background: transparent;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 15;
+}
+.subrayar{
+    top: 280px;
+    left: 845px;
+    width: 130px;
+    height: 0px;
+    border: 1px solid #212020;
+    position: absolute;
+
+}

@@ -128,3 +128,99 @@
     cursor: pointer;
     font-size: 35px;
 }
+
+.texto1{
+    top: 349px;
+    left: 1409px;
+    width: 84px;
+    height: 27px;
+    color: #FFFFFF;
+    position: absolute;
+    text-align: left;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto4{
+    top: 500px;
+    left: 1440px;
+    width: 23px;
+    height: 187px;
+    color: #FFFFFF;
+    position: absolute;
+    text-align: left;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 40%;
+}
+.texto5{
+    top: 600px;
+    left: 1440px;
+    width: 23px;
+    height: 187px;
+    color: #FFFFFF;
+    position: absolute;
+    text-align: left;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.texto6{
+    top: 700px;
+    left: 1440px;
+    width: 23px;
+    height: 187px;
+    color: #FFFFFF;
+    position: absolute;
+    text-align: left;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 40%;
+}
+.cuadroVerde{
+    top: 847px;
+    left: 1180px;
+    width: 160px;
+    height: 114px;
+    background-color: #D5FF43;
+    border-radius: 8px;
+    position: absolute;
+}
+.comprar{
+    top: 917px;
+    left: 1205px;
+    width: 111px;
+    height: 36px;
+    color: #000000;
+    text-align: left;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.cuadroPequeño{
+    top: 876px;
+    left: 1195px;
+    width: 129px;
+    height: 29px;
+    background: url(../img/logoMetro.png);
+    position: absolute;
+}
+.tarjeta{
+    top: 861px;
+    left: 158px;
+    width: 716px;
+    height: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+}
+.precio{
+    top: 924px;
+    left: 157px;
+    width: 139px;
+    height: 37px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    text-align: left;
+    font-size: 26px;
+}

@@ -1,0 +1,35 @@
+div{
+    background-color: red;
+}
+
+div h1 {
+    color: white;
+}
+
+div h1#tarde{
+    color: rgb(23, 45, 243);
+}
+
+button{
+    background-color: aqua;
+}
+button[disabled]{ /*todo junto*/
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input[placeholder="John Doe"]{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue; 
+
+}
+
+input[type="password"]{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    background-color: rgb(64, 184, 27);
+}
+
+input[placeholder="John Doe"]{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:  blue; 
+
+}

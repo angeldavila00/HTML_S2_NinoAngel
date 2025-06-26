@@ -63,3 +63,68 @@
     position: absolute;
 
 }
+
+.saldo{
+    top: 242px;
+    left: 1072px;
+    width: 132px;
+    height: 41px;
+    position: absolute;
+    color: #000000;
+    font-size: 30px;
+    text-align: left;
+    background: transparent;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 15;
+}
+.buscador{
+    top: 248px;
+    left: 1224px;
+    width: 27px;
+    height: 27px;
+    background: transparent url(./../img/buscador.png) 0% 0% no-repeat padding-box;
+    position: absolute;
+    cursor: pointer;
+}
+.carrito{
+    top: 248px;
+    left: 1300px;
+    width: 33px;
+    height: 32px;
+    background: transparent url(./../img/carrito.png) 0% 0% no-repeat padding-box;
+    position: absolute;
+    cursor: pointer;
+}
+
+.flecha1{
+    top: 240px;
+    left: 1425px;
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    transform: rotate(-90deg);
+}
+.flecha1 button{
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 35px;
+}
+
+.flecha2{
+    top: 946px;
+    left: 1460px;
+    width: 24px;
+    height: 14px;
+    position: absolute;
+    transform: rotate(90deg);
+}
+.flecha2 button{
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 35px;
+}

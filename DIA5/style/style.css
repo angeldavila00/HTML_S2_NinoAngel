@@ -13,5 +13,22 @@
     background-color: #FFFFFF;
     position: absolute;
     border: 1px solid #707070;
-    border-radius: 8px 8px 8px 8px;
+    border-radius: 8px ;
+}
+.lateral{
+    top: 200px;
+    left: 1390px;
+    width: 110px;
+    height: 800px;
+    background-color: #212020;
+    position: absolute;
+    border-radius: 8px;
+}
+
+.logo1{
+    top: 243px;
+    left: 143px;
+    width: 196px;
+    height: 44px;
+    position: absolute;
 }

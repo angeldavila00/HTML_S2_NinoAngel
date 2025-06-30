@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    max-width: 100%;
+}
+
+#fondo{
+    margin-top: 1%;
+    margin-left: 20%;
+    
+    position: absolute;
+}
+.color{
+    color: white;
+}
+#texto1{
+
+}

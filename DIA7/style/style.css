@@ -4,14 +4,77 @@ body{
 }
 
 #fondo{
-    margin-top: 1%;
-    margin-left: 20%;
-    
+    margin-top: 2%;
+    margin-left: -2%;
+    width: 103vw;
     position: absolute;
+    background-position: center;
+    background-size: cover;
 }
 .color{
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
-#texto1{
 
+.color1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#logo{
+    margin-top: 0vw;
+    padding-left: 20vw;
+    font-size: 100%;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+#texto1{
+    margin-top: -1vw;
+    padding-left: 50vw;
+    font-size: 100%;
+    
+    
+}
+#texto2{
+    margin-top: -1vw;
+    padding-left: 55vw;
+    font-size: 100%;
+    
+}
+#texto3{
+    margin-top: -1vw;
+    padding-left: 60vw;
+    font-size: 100%;
+    
+}
+#texto4{
+    margin-top: -1vw;
+    padding-left: 65vw;
+    font-size: 100%;
+    
+}
+
+
+#texto5{
+    margin-top: 20vw;
+    padding-left: 40vw;
+    font-size: 300%;
+    position: absolute;
+    text-align: center;
+}
+
+#texto6{
+    margin-top: 60vw;
+    padding-left: 33vw;
+    font-size: 500%;
+    position: absolute;
+    text-align: center;
+}
+
+#cuadro{
+    font-family: Arial, Helvetica, sans-serif;
 }

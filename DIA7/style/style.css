@@ -4,77 +4,99 @@ body{
 }
 
 #fondo{
-    margin-top: 2%;
-    margin-left: -2%;
-    width: 103vw;
-    position: absolute;
-    background-position: center;
-    background-size: cover;
-}
-.color{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: auto;
+    position: center;
+    background: transparent;
+    
 }
 
 .color1{
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        
+
 }
 
 #logo{
-    margin-top: 0vw;
-    padding-left: 20vw;
+
     font-size: 100%;
+    position: absolute;
+    top: 1vh;
+    left: 10vw;
 
 }
 
-a{
+.color{
     text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+.color:hover{
+    text-decoration: underline;
+}
+
 
 #texto1{
-    margin-top: -1vw;
-    padding-left: 50vw;
     font-size: 100%;
-    
+    position: absolute;
+    top: 1vw;
+    left: 60vw;
     
 }
 #texto2{
-    margin-top: -1vw;
-    padding-left: 55vw;
     font-size: 100%;
-    
+    position: absolute;
+    top: 1vw;
+    left: 70vw;
 }
+    
+
 #texto3{
-    margin-top: -1vw;
-    padding-left: 60vw;
     font-size: 100%;
+    position: absolute;
+    top: 1vw;
+    left: 80vw;
     
 }
 #texto4{
-    margin-top: -1vw;
-    padding-left: 65vw;
     font-size: 100%;
-    
+    top: 1vw;
+    left: 90vw;
+    position: absolute;
 }
 
 
 #texto5{
-    margin-top: 20vw;
-    padding-left: 40vw;
+    height: 100vh; /*altura*/
+    width: 100vw; 
+    left: 33px;
     font-size: 300%;
     position: absolute;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
 
 #texto6{
-    margin-top: 60vw;
-    padding-left: 33vw;
     font-size: 500%;
     position: absolute;
-    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #cuadro{
     font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+section h2 {
+     color: black; /*corregir*/
 }

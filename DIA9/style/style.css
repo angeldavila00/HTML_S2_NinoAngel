@@ -40,10 +40,11 @@ body{
 .img4{
     grid-column-start: 1 ;
     grid-column-end: 3 ;
+    
 }
 #imgN4{
     width: 90vw;
-    height: 90vw;
+    height: auto;
 }
 .img5{
     width: 43vw;

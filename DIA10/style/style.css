@@ -1,0 +1,23 @@
+body{
+    margin: auto;
+}
+
+*{
+    background-color: rgb(176, 94, 94);
+}
+
+.modulo{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    justify-content: space-around;
+    margin-bottom: 5vw;
+    padding-bottom: 5vw;
+    
+}
+.modulo > div{
+    background-color: aqua;
+    color: rgb(5, 5, 5);
+    border: 0.5vw solid rebeccapurple;
+}

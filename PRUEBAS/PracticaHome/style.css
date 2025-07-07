@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+.contenedor-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.tarjeta {
+    background-color: #da5b5b;
+    padding: 1vw;
+    text-align: center;
+    border-radius: 1vw;
+    box-shadow: 5px 5px 20px 0 white;
+
+}

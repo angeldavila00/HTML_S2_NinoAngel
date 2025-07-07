@@ -1,0 +1,64 @@
+*{
+    background-color: black;
+}
+
+.fondo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cielo{
+    height:30vh;
+    width: 228vh;
+    background: url(../img/monkey-sky.png);
+    align-items: center;
+    animation: arriba .50s steps(3) infinite;
+}
+
+@keyframes arriba {
+    from{
+background-position: 0px;
+    }
+    to{
+        background-position: -200px;
+    }
+    
+}
+
+
+.base{
+    background: url(../img/monkey-sea.png);
+    height:24vh;
+    width: 228vh;
+    animation: suelo .50s steps(3) infinite;
+}
+@keyframes suelo{
+    from{
+background-position: 0px;
+    }
+    to{
+        background-position: -200px;
+    }
+}
+
+.matachito{
+    margin: auto;
+    top: 22vw;
+    image-rendering: pixelated;
+    position: relative;
+    width:  60px;
+    height: 100px;
+    background: url(../img/bernie.png);
+    background-size:cover;
+    bottom: 30px;
+    animation: movimiento .30s steps(7) infinite;
+}
+
+@keyframes movimiento{
+    from{
+background-position: 0px;
+    }
+    to{
+        background-position: -500px;
+    }
+}
